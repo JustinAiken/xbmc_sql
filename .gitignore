@@ -13,3 +13,5 @@ Gemfile.lock
 tmp/
 
 *.sql.gz
+
+coverage/
