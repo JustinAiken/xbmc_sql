@@ -1,0 +1,20 @@
+default: &default
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
+
+test:
+  <<: *default
+  database: db/test.db
+
+development:
+  <<: *default
+  database: db/development.db
+
+xbmc_test:
+  <<: *default
+  database: db/test.db
+
+xbmc_development:
+  <<: *default
+  database: db/development.db
