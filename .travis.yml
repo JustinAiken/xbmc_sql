@@ -6,3 +6,9 @@ rvm:
 matrix:
   allow_failures:
     - rvm: 1.9.2
+notifications:
+  email:
+    recipients:
+      - 60tonangel@gmail.com
+    on_success: change
+    on_failure: change
