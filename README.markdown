@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/JustinAiken/xbmc_sql.png?branch=master)](http://travis-ci.org/JustinAiken/xbmc_sql) [![Coverage Status](https://coveralls.io/repos/JustinAiken/xbmc_sql/badge.png?branch=master)](https://coveralls.io/r/JustinAiken/xbmc_sql?branch=master)[![Code Climate](https://codeclimate.com/github/JustinAiken/xbmc_sql/badges/gpa.svg)](https://codeclimate.com/github/JustinAiken/xbmc_sql)
+[![Build Status](http://img.shields.io/travis/JustinAiken/xbmc_sql/master.svg)](http://travis-ci.org/JustinAiken/xbmc_sql) [![Coveralls branch](http://img.shields.io/coveralls/JustinAiken/xbmc_sql/master.svg)](https://coveralls.io/r/JustinAiken/xbmc_sql?branch=master)[![Code Climate](http://img.shields.io/codeclimate/github/JustinAiken/xbmc_sql.svg)](https://codeclimate.com/github/JustinAiken/xbmc_sql)
 
 # xbmc_sql
 
