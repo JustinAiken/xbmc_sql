@@ -17,17 +17,17 @@ describe XbmcSql::RatingUpdater do
     let(:scraper) { described_class.new movie }
 
     context "with an imdb-less movie" do
-      let(:movie) { create :movie, rating: 8.2 }
+      let(:movie) { create :movie, rating: '8.2' }
 
       it "doesn't do anything" do
         expect(HTTParty).not_to receive :get
         scraper.scrape!
-        expect(movie.rating).to eq 8.2
+        expect(movie.rating).to eq '8.2'
       end
     end
 
     context "with an imdb movie" do
-      let(:movie)        { create :movie, rating: 8.2, imdb_id: 'tt1234' }
+      let(:movie)        { create :movie, rating: '8.2', imdb_id: 'tt1234' }
       let(:expected_url) { "http://www.omdbapi.com/?i=tt1234" }
 
       before { expect(HTTParty).to receive(:get).with(expected_url).and_return response }
