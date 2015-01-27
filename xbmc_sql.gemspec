@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ['lib']
 
-  s.add_dependency 'rails', '~> 4.1.0'
+  s.add_dependency 'rails', '~> 4.0'
   s.add_dependency 'httparty'
   s.add_dependency 'xml-simple'
 
