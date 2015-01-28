@@ -8,7 +8,11 @@ Special thanks to [Rocketmade](http://www.rocketmade.com/) for development resou
 
 ## Requirements/Support
 
-- Rails 4.1
+- Rails
+  - Supported:
+    - 4.0
+    - 4.1
+    - 4.2
 - XBMC 13 (Gotham) or Kodi 14 (Helix)
 - sqlite or mysql database reachable by the Rails application
 
