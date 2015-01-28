@@ -1,8 +1,8 @@
 [![Build Status](http://img.shields.io/travis/JustinAiken/xbmc_sql/master.svg)](http://travis-ci.org/JustinAiken/xbmc_sql) [![Coveralls branch](http://img.shields.io/coveralls/JustinAiken/xbmc_sql/master.svg)](https://coveralls.io/r/JustinAiken/xbmc_sql?branch=master)[![Code Climate](http://img.shields.io/codeclimate/github/JustinAiken/xbmc_sql.svg)](https://codeclimate.com/github/JustinAiken/xbmc_sql)
 
-# xbmc_sql
+# xbmc-sql
 
-xbmc_sql is a Rails engine for interacting with the XBMC/Kodi database directly.  It can also update .nfo files as it makes changes to the database.
+xbmc-sql is a Rails engine for interacting with the XBMC/Kodi database directly.  It can also update .nfo files as it makes changes to the database.
 
 Special thanks to [Rocketmade](http://www.rocketmade.com/) for development resources.
 
@@ -17,6 +17,10 @@ Special thanks to [Rocketmade](http://www.rocketmade.com/) for development resou
 - sqlite or mysql database reachable by the Rails application
 
 ## Setup
+
+#### Installation
+
+`gem install xbmc-sql`
 
 #### Database
 
